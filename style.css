@@ -82,7 +82,7 @@ h1, h2, h3 {
 /* Features */
 .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; padding-bottom: 72px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 22px; }
-.card h3 { font-size: 26px; margin: 0 0 6px; }
+.card h2 { font-size: 26px; margin: 0 0 6px; }
 .card p { margin: 0; color: var(--sec); }
 .card .icon { font-size: 28px; }
 
@@ -104,3 +104,11 @@ h1, h2, h3 {
   .hero { padding-top: 48px; }
   .page h1 { font-size: 40px; }
 }
+
+/* Current page in the header */
+.nav a[aria-current="page"] { color: var(--text); }
+
+/* 404 */
+.notfound { text-align: center; margin: 0 auto; }
+.notfound .lost { display: block; margin: 0 auto 16px; transform: rotate(-12deg); filter: grayscale(.6); }
+.notfound .cta { margin-top: 16px; }
