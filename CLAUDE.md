@@ -9,7 +9,7 @@ Static site for [thegameshub.com.br](https://thegameshub.com.br), the public hom
 - **Keep it simple.** Plain HTML and CSS, no framework, no build step, no external libraries and no cookies. The app has about 100 users.
 - **Copy in Brazilian Portuguese.** Code, comments, commit messages and this file in English. Talk to the owner in Brazilian Portuguese.
 - **Legal pages are drafts** until the owner approves the final text.
-- **Do not change `CNAME` or `.nojekyll`.** `CNAME` holds the custom domain, and `.nojekyll` lets GitHub Pages serve dot folders such as `.well-known`.
+- **Do not change `CNAME`, `.nojekyll` or `google19b89c97000b4372.html`.** `CNAME` holds the custom domain, `.nojekyll` lets GitHub Pages serve dot folders such as `.well-known`, and the Google file keeps the Search Console verification.
 
 ## Structure
 
