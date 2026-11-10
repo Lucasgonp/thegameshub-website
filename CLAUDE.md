@@ -1,6 +1,6 @@
-# TheGamesHub website
+# The Games Hub website
 
-Static site for [thegameshub.com.br](https://thegameshub.com.br), the public home of the TheGamesHub iPhone app. Product decisions and proposals for the site live in the app repository, in `docs/product/global/website.md` and `docs/product/website/`. Read them before adding anything.
+Static site for [thegameshub.com.br](https://thegameshub.com.br), the public home of the The Games Hub iPhone app. Product decisions and proposals for the site live in the app repository, in `docs/product/global/website.md` and `docs/product/website/`. Read them before adding anything.
 
 ## Rules
 
