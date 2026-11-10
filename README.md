@@ -1,6 +1,6 @@
-# TheGamesHub website
+# The Games Hub website
 
-Static site for [thegameshub.com.br](https://thegameshub.com.br): home, support, privacy policy and terms of use for the TheGamesHub iOS app.
+Static site for [thegameshub.com.br](https://thegameshub.com.br): home, support, privacy policy and terms of use for the The Games Hub iOS app.
 
 - Plain HTML and CSS, no build step. Served by GitHub Pages from `main`.
 - Brand files in `assets/` are copied from the app repository's Canvas (`design/canvas/brand/`).
