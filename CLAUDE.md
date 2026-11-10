@@ -8,14 +8,14 @@ Static site for [thegameshub.com.br](https://thegameshub.com.br), the public hom
 - **Pushing to `main` publishes.** GitHub Pages serves `main` in about a minute. Preview locally and get the owner's yes before pushing.
 - **Keep it simple.** Plain HTML and CSS, no framework, no build step, no external libraries and no cookies. The app has about 100 users.
 - **Copy in Brazilian Portuguese.** Code, comments, commit messages and this file in English. Talk to the owner in Brazilian Portuguese.
-- **Legal pages are drafts** until the owner approves the final text.
+- **Legal pages** (`privacidade.html`, `termos.html`, `regras.html`) carry the text the owner approved, built from `docs/launch/` in the app repository. Change them only with the owner's yes, and update the date on the page.
 - **Do not change `CNAME`, `.nojekyll` or `google19b89c97000b4372.html`.** `CNAME` holds the custom domain, `.nojekyll` lets GitHub Pages serve dot folders such as `.well-known`, and the Google file keeps the Search Console verification.
 
 ## Structure
 
 | Path | Purpose |
 |---|---|
-| `index.html`, `suporte.html`, `privacidade.html`, `termos.html` | Pages, each with its own title, description, canonical URL and link preview tags |
+| `index.html`, `suporte.html`, `privacidade.html`, `termos.html`, `regras.html` | Pages, each with its own title, description, canonical URL and link preview tags |
 | `404.html` | Shown by GitHub Pages for any missing address. Uses root-absolute paths |
 | `style.css` | One stylesheet with light and dark tokens on `:root` |
 | `assets/` | Mascot, wordmarks, favicon and the 1200 × 630 link preview image `og.jpg` |
